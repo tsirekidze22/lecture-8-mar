@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <section class="signup-page">
+      <div class="signup-form">
+        <!-- Form Header -->
+        <div class="form-header">
+          <div>
+            <h3 class="header-title">Premium</h3>
+            <p class="header-desc">Faster Instagram Growth</p>
+          </div>
+          <h3 class="monthly-price">$199/month</h3>
+        </div>
+        <!-- Form -->
+        <form action="#">
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Cardholder Name" />
+          <div class="cardholder-number">
+            <input type="text" placeholder="Cardholder Number" />
+            <img src="images/card-icon.svg" class="card-icon" alt="card" />
+          </div>
+          <div>
+            <select name="country" class="select-country">
+              <option value="default">Country</option>
+              <option value="georgia">Georgia</option>
+              <option value="usa">USA</option>
+              <option value="spain">Spain</option>
+            </select>
+          </div>
+
+          <div>
+            <input type="checkbox" id="fcheckbox" class="checkbox-wrapper" />
+            <label for="fcheckbox"
+              >I accept the Terms of
+              <span class="highlighted"> Service</span> and Privacy
+              Policy</label
+            >
+          </div>
+
+          <button class="submit" type="submit">
+            Get started $199 <span class="old-price">$249</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <p class="para">paragraph</p>
+
+    <!--<form action="#">
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter Username"
+          required
+        />
+      </div>
+      <div>
+        <label for="mail">Mail</label>
+        <input type="email" id="mail" placeholder="Enter mail" required />
+      </div>
+      <div>
+        <label for="pass">Password</label>
+        <input
+          type="password"
+          id="pass"
+          placeholder="Enter password"
+          required
+        />
+      </div>
+
+      <input type="range" />
+      <input type="date" />
+      <input type="checkbox" />
+      <label for="">Remember me</label>
+
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>-->
+  </body>
+</html>
